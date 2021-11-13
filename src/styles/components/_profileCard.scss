@@ -1,0 +1,66 @@
+@import '../vars/variables';
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d1016;
+    padding: 6rem 8rem;
+    max-width: 90vw;
+    border-radius: $base-border-radius;
+
+    @media screen and (max-width: 1024px) {
+        padding: 5rem 3rem;
+    }
+
+    .img-wrap {
+        position: relative;
+        max-width: 6rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+    .icon-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline-start: 0px;
+
+        .icon-list-item {
+            padding: 1rem;
+            border-radius: $base-border-radius;
+            background-color: $base-background-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.3rem;
+            transition: $base-transition;
+
+            &:hover {
+                box-shadow: $base-box-shadow;
+                transform: scale(1.05);
+            }
+
+            .icon-list-link {
+                width: 2.5rem;
+                height: 2.5rem;
+                display: block;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    color: #efefef;
+                    outline: #efefef;
+                }
+            }
+        }
+    }
+}

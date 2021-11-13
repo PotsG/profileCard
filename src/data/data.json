@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/gewoonpots/",
+            "icon": ["fab", "instagram"]
+        },
+        {
+            "name": "GitHub",
+            "link": "https://github.com/RobotMargie",
+            "icon": ["fab", "github"]
+        },
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/hellapomplemousse/",
+            "icon": ["fab", "facebook"]
+        },
+        {
+            "name": "Email",
+            "link": "mailto:gregorypots32@gmail.com",
+            "icon": ["fas", "inbox"]
+        }
+    ]
+
+}

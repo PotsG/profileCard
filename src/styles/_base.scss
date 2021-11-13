@@ -1,0 +1,30 @@
+@import 'vars/variables';
+@import 'components/profileCard';
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: $base-background-color;
+    color: $base-text-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    min-height: 100vh;
+    display: flex;
+
+    #root {
+        font-size: 1rem;
+        flex: 1;
+        display: flex;
+    }
+
+    .container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
